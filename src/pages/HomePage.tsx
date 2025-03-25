@@ -5,19 +5,14 @@ const HomePage = () => {
   const navigate = useNavigate();
 
   const navigateToRegisterPage = () => {
-    navigate("/register");
+    navigate("/Fashion-Fusion/register");
   };
 
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative h-[90vh]">
-        <img
-          src="/src/assets/pexels-charlotte-may-5824520.jpg"
-          alt="Hero Background"
-          className="absolute top-0 left-0 h-full w-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/30" />
+        <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-purple-500 to-indigo-500" />
         <div className="absolute inset-0 flex flex-col items-center justify-center gap-6 px-4">
           <h1 className="text-center font-sans text-5xl font-bold text-white md:text-7xl">
             Discover Your Style

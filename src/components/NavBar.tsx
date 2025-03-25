@@ -5,7 +5,7 @@ const NavBar = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/");
+    navigate("/Fashion-Fusion");
   };
 
   return (
@@ -31,10 +31,10 @@ const NavBar = () => {
       <div>
         <ul className="flex space-x-4 text-sm md:space-x-6 md:text-base lg:space-x-12 lg:text-xl">
           <li>
-            <Link to="/products">Products</Link>
+            <Link to="/Fashion-Fusion/products">Products</Link>
           </li>
           <li>
-            <Link to="/register">Sign Up</Link>
+            <Link to="/Fashion-Fusion/register">Sign Up</Link>
           </li>
         </ul>
       </div>
