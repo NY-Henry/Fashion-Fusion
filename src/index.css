@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer components {
+  .heading {
+    @apply text-2xl font-bold text-gray-900 dark:text-white;
+  }
+}
