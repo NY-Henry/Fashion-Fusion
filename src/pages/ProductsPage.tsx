@@ -8,22 +8,23 @@ interface Product {
 }
 
 const ProductsPage = () => {
-  // Sample product data (you can replace this with your actual data)
+  // Product data with online image URLs
   const products: Product[] = [
     {
       id: 1,
       name: "Classic T-Shirt",
       price: 29.99,
-      image: "/images/tshirt.jpg",
+      image:
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       description: "Comfortable cotton t-shirt",
       category: "Clothing",
     },
-
     {
       id: 2,
       name: "Stylish Hoodie",
       price: 49.99,
-      image: "/images/hoodie.jpg",
+      image:
+        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       description: "Warm and cozy hoodie",
       category: "Clothing",
     },
@@ -31,16 +32,17 @@ const ProductsPage = () => {
       id: 3,
       name: "Running Shoes",
       price: 89.99,
-      image: "/images/runningshoes.jpg",
+      image:
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       description: "Lightweight running shoes",
       category: "Footwear",
     },
-
     {
       id: 4,
       name: "Leather Wallet",
       price: 39.99,
-      image: "/images/wallet.jpg",
+      image:
+        "https://images.unsplash.com/photo-1627123424574-724758594e93?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       description: "Genuine leather wallet",
       category: "Accessories",
     },
@@ -48,7 +50,8 @@ const ProductsPage = () => {
       id: 5,
       name: "Smart Watch",
       price: 199.99,
-      image: "/images/smartwatch.jpg",
+      image:
+        "https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       description: "Feature-rich smart watch",
       category: "Electronics",
     },
@@ -56,7 +59,8 @@ const ProductsPage = () => {
       id: 6,
       name: "Bluetooth Headphones",
       price: 79.99,
-      image: "/images/headphones.jpg",
+      image:
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
       description: "Wireless Bluetooth headphones",
       category: "Electronics",
     },

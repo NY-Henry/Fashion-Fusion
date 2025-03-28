@@ -7,23 +7,23 @@ import SignUpPage from "./pages/SignUpPage";
 
 const router = createBrowserRouter([
   {
-    path: "/Fashion-Fusion",
+    path: "/",
     element: <MainLayOut />,
     children: [
       {
-        path: "/Fashion-Fusion",
+        path: "/",
         element: <HomePage />,
       },
       {
-        path: "/Fashion-Fusion/products",
+        path: "/products",
         element: <ProductsPage />,
       },
       {
-        path: "/Fashion-Fusion/products/:id",
+        path: "/products/:id",
         element: <ProductPage />,
       },
       {
-        path: "/Fashion-Fusion/register",
+        path: "/register",
         element: <SignUpPage />,
       },
     ],
