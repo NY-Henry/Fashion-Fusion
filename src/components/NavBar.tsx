@@ -13,10 +13,10 @@ const NavBar = () => {
       className="fixed top-0 right-0 left-0 z-50 flex h-14 items-center justify-between bg-gray-800 px-4 py-2 text-white shadow md:h-16 md:px-6"
       aria-label="Main navigation"
     >
-      <div className="flex items-center space-x-2 md:space-x-4">
+      <div className="flex items-center md:space-x-4">
         <h1
           onClick={handleClick}
-          className="heading cursor-pointer text-lg md:text-base lg:text-2xl"
+          className="heading cursor-pointer text-xl text-white md:text-base lg:text-2xl"
         >
           Fashion Fusion
         </h1>
