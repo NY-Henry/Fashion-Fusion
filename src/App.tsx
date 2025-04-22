@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage";
 import ProductsPage from "./pages/ProductsPage";
 import ProductPage from "./pages/ProductPage";
 import SignUpPage from "./pages/SignUpPage";
+import About from "./pages/About";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,11 @@ const router = createBrowserRouter([
         path: "/register",
         element: <SignUpPage />,
       },
+      {
+        
+        path: "/aboutUs",
+        element: <About />,
+      }
     ],
     errorElement: (
       <div className="flex min-h-screen items-center justify-center">
