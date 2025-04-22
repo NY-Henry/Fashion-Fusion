@@ -16,7 +16,7 @@ const NavBar = () => {
       <div className="flex items-center md:space-x-4">
         <h1
           onClick={handleClick}
-          className="heading cursor-pointer text-xl text-white md:text-base lg:text-2xl"
+          className="heading cursor-pointer text-xl text-white select-none md:text-base lg:text-2xl"
         >
           Fashion Fusion
         </h1>
